@@ -200,12 +200,12 @@ Range("AP3", Cells(b, 42)).Clear
 'Supplier details and tax scheme
 Workbooks("Output.xlsx").Sheets(1).Activate
 For s = 3 To b
-Cells(s, 49).Value = "SPS Intermodal Services India Private Limited"
-Cells(s, 50).Value = "27AANCS4956R1Z7"
-Cells(s, 51).Value = "Land Survey No 35 36 108, At Dighode, Dighode, Raigad, Maharashtra,"
-Cells(s, 52).Value = "Navi Mumbai"
-Cells(s, 53).Value = 27
-Cells(s, 54).Value = 410206
+Cells(s, 49).Value = "Supplier Name"
+Cells(s, 50).Value = "Supplier GSTIN"
+Cells(s, 51).Value = "Supplier Place,"
+Cells(s, 52).Value = "Supplier State"
+Cells(s, 53).Value = Supplier State Code
+Cells(s, 54).Value = Supplier Pincode
 Cells(s, 78).Value = "GST"
 Next s
 
