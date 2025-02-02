@@ -12,3 +12,14 @@ These VBA projects automate the transformation of raw purchase data generated fr
 - *Data Validations*: Apply custom logic for validations (i.e. specific chartacter limit, data type, GSTIN Verification)
 
 **Customization**: This script can be easily modified to accommodate different formats, additional fields, or validation logic based on business requirements.
+
+**🚨Note on Sample**
+
+Sorry, I can't add the .xlsx files as they contain confidential GST financial data. However, you can refer to the syntax and logic to customize it according to your needs. The core approach remains the same.
+
+**⚠  Common Mistakes to avoid**
+- *File Naming & Extensions* – Ensure the correct Excel file names and extensions (.xlsx, .xlsm). Avoid .xml or incorrect formats.
+- *File Paths* – Double-check the full file path before running the macro to prevent file not found errors.
+- *Understanding Nested Logic* – Ensure correct usage of If, For, and other VBA functions to avoid unexpected results.
+- *Sheet References* – Make sure you're copying and pasting from the correct sheets within the workbooks.
+- *Unprotected Sheets* – If modifying a protected sheet, use the correct password to avoid runtime errors.
