@@ -1,6 +1,6 @@
 # vba-data-transformation
 
-These VBA projects automate the transformation of raw purchase data generated from ERP systems (such as Microsoft, Oracle, SAP Hana) into a standardized government or ingestion template with a single button click.
+These VBA projects automate the transformation of raw sales [🔗](Project1.bas) & purchase data [🔗](Project2.bas) generated from ERP systems (such as Microsoft, Oracle, SAP Hana) into a standardized government or ingestion template with a single button click.
 
 **Key Features**
 
